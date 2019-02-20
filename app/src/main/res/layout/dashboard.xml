@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingLeft="30dp">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dash"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:paddingTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:paddingTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvFirstName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FN"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:paddingTop="30dp"
+        />
+    <TextView
+
+        android:id="@+id/tvSurname"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SN"
+        android:textColor="@color/white"
+        android:paddingTop="30dp"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/tvBday"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bday"
+        android:textColor="@color/white"
+        android:paddingTop="30dp"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/tvPhoneNum"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:paddingTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+
+
+</LinearLayout>

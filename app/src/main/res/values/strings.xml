@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sign up for 2go</string>
+    <string name="pls">Please enter your details below:</string>
+    <string name="FN">First name</string>
+    <string name="SN">Surname</string>
+    <string name="choose"> Choose a Username</string>
+    <string name="bday">Birthday</string>
+    <string name="loc">Location</string>
+    <string name="con">Continue</string>
+    <string name="fem">Female</string>
+    <string name="male">Male</string>
+    <string name="chat">Chat with friends</string>
+    <string name="meet">Meet new people</string>
+    <string name="pass">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Log in</string>
+    <string name="user">Not a user ? </string>
+    <string name="create">Create account</string>
+    <string name="Welcome"> Welcome !</string>
+    <string name="dash">My DashBoard</string>
+    <string name="phone">Phone Number</string>
+    <string name="Gender">Gender</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>
