@@ -16,8 +16,10 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-    <style name="spinnerTheme">
+    <style name="spinnerTheme"
+        parent="@style/Widget.AppCompat.TextView.SpinnerItem">
         <item name = "android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
     </style>
 
 </resources>

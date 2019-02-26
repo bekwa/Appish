@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.NestedScrollView
-    android:layout_height="match_parent"
-    android:layout_width="match_parent"
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -11,16 +8,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/pls"
-            android:textSize="20sp"/>
 
+
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/darkblue">
+
+            
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            >
+            android:layout_height="match_parent">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -72,6 +74,7 @@
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:layout_marginRight="55dp"
+                            android:maxLines="1"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="20dp"
                             android:textColorHint="@color/white"/>
@@ -83,6 +86,7 @@
                             android:backgroundTint="@color/white"
                             android:textColor="@color/white"
                             android:textSize="20sp"
+                            android:maxLines="1"
                             android:layout_marginRight="55dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="20dp"
@@ -105,6 +109,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/white"
+                        android:maxLines="1"
                         android:drawablePadding="10dp"
                         android:drawableLeft="@drawable/ic_phone_android_black_24dp"
                         android:inputType="phone"
@@ -121,6 +126,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/white"
+                        android:maxLines="1"
                         android:drawablePadding="10dp"
                         android:drawableLeft="@drawable/ic_email_black_24dp"
                         android:textColor="@color/white"
@@ -137,6 +143,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/white"
                         android:drawablePadding="10dp"
+                        android:maxLines="1"
                         android:drawableLeft="@drawable/person"
                         android:textColor="@color/white"
                         android:hint="@string/choose"
@@ -145,21 +152,16 @@
                         android:textColorHint="@color/white"/>
 
 
-                    <!--<Spinner
+                    <android.support.v7.widget.AppCompatSpinner
                         android:id="@+id/spGender"
                         android:layout_width="match_parent"
-                        android:layout_height="80dp"
-                        android:background="@style/spinnerTheme"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        style="@style/spinnerTheme"
                         android:backgroundTint="@color/white"
                         android:entries="@array/gender"
-
-                        android:prompt="@string/Gender"
-
-                        />-->
-
-
-
-
+                        android:prompt="@string/Gender">
+                    </android.support.v7.widget.AppCompatSpinner>
 
                     <!--<RadioGroup
                         android:layout_width="match_parent"
@@ -168,8 +170,6 @@
                         android:paddingTop="20dp"
 
                         >
-
-
                             <RadioButton
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -178,9 +178,6 @@
                                 android:buttonTint="@color/white"
                                 android:textSize="20sp"
                                 android:textColor="@color/white"/>
-
-
-
 
                             <RadioButton
                                 android:layout_width="match_parent"
@@ -199,6 +196,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/white"
                         android:textColor="@color/white"
+                        android:maxLines="1"
                         android:hint="@string/bday"
                         android:textColorHint="@color/white"
                         android:inputType="date"
@@ -215,6 +213,7 @@
                         android:backgroundTint="@color/white"
                         android:hint="@string/loc"
                         android:textColorHint="@color/white"
+                        android:maxLines="1"
                         android:textSize="20sp"
                         android:drawableLeft="@drawable/location"
                         android:layout_marginTop="20dp"
@@ -230,7 +229,10 @@
                         android:textColorHint="@color/white">
 
                         <EditText
+                            android:paddingLeft="40dp"
+
                             android:id="@+id/etPassword"
+                            android:maxLines="1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="@color/white"
@@ -254,13 +256,15 @@
 
             </LinearLayout>
 
+
         </android.support.v7.widget.CardView>
+
+
+    </android.support.v4.widget.NestedScrollView>
 
 
     </RelativeLayout>
 
-
-</android.support.v4.widget.NestedScrollView>
 
 
     

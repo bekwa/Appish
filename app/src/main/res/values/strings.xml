@@ -20,6 +20,8 @@
     <string name="dash">My DashBoard</string>
     <string name="phone">Phone Number</string>
     <string name="Gender">Gender</string>
+    <string name="fullname">Full Name</string>
+    <string name="username">UserName</string>
     <string-array name="gender">
         <item>Male</item>
         <item>Female</item>
